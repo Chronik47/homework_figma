@@ -11,6 +11,10 @@ a {
     color: #F25822;
 }
 
+.font {
+    font-family: Gilroy-SemiBold;
+}
+
 .conteiner {
     font-family: Gilroy-Bold;
     font-style: normal;
@@ -18,17 +22,28 @@ a {
     line-height: normal;
 }
 
+.center {
+    padding-left: calc(50% - 1170px/2);
+    padding-right: calc(50% - 1170px/2);
+}
+
 .header {
+    display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header_logo {
+    display: flex;
+    align-items: center;
     color: #000;
 }
 
 .header_logo_text {
     font-size: 24px;
+    padding-left: 14px;
 }
 
 .header_menu_link {
@@ -36,7 +51,14 @@ a {
     font-size: 14px;
 }
 
+.padding {
+    padding-left: 30px;
+}
+
 .top_content {
+    display: flex;
+    align-items: flex-end;
+    gap: 40.94px;
     padding-top: 44px;
     padding-bottom: 162px;
 }
@@ -52,9 +74,13 @@ a {
     color: #888;
     font-family: Gilroy-Medium;
     font-size: 20px;
+    width: 466px;
 }
 
 .top_button {
+    display: flex;
+    align-items: center;
+    gap: 72px;
     font-size: 15px;
 }
 
@@ -69,11 +95,16 @@ a {
 
 
 .top_text_video {
-    padding-left: 75px;
     color: #AAA;
 }
 
+.top_img {
+    padding-right: 64px;
+}
+
 .top_logo {
+    display: flex;
+    justify-content: space-between;
     padding-top: 97px;
     padding-bottom: 96px;
 }
