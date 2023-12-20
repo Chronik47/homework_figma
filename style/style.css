@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 a {
@@ -9,10 +10,6 @@ a {
 
 .orange_text {
     color: #F25822;
-}
-
-.font {
-    font-family: Gilroy-SemiBold;
 }
 
 .conteiner {
@@ -85,9 +82,8 @@ a {
 }
 
 .top_button_active {
-    padding: 15px 36px 16px 35px;
+    padding: 15px 36px;
     border-radius: 50px;
-    border: 0;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
     color: #FFF;
@@ -113,4 +109,116 @@ a {
     display: inline-block;
     width: 160px;
     height: 50px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #000;
+    font-size: 24px;
+    background: #FFFFFF;
+}
+
+.business_item {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.business_item_topic {
+    margin-top: 25px;
+}
+
+.business_item_text {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    line-height: 150%;
+    /* 22.5px */
+    margin-top: 17px;
+    width: 310px;
+}
+
+.btn_more {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #000;
+    font-size: 11px;
+    line-height: 150%;
+    /* 16.5px */
+    background-color: #FFF;
+}
+
+#more {
+    display: none;
+}
+
+.services {
+    background: #FAFAFA;
+    padding-top: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services_title {
+    color: #000;
+    font-size: 45px;
+}
+
+.services_text {
+    margin-top: 19px;
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 150%;
+    /* 24px */
+    width: 682px;
+}
+
+.services_top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.services_top_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.services_title_two {
+    color: #000;
+    font-size: 24px;
+}
+
+.services_top_text {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-top: 22px;
+    margin-bottom: 39px;
+}
+
+.services_btn {
+    background: #f25822;
+    padding: 15px 36px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+.btn_arrow {
+    margin-left: 6px;
 }
