@@ -1,7 +1,10 @@
-function readMore() {
-    var dots = document.getElementById("dots");
-    var more = document.getElementById("more");
-    var btn = document.getElementById("btn");
+
+
+function readMore(clicked_button_id) {
+    var clicked_id = clicked_button_id.slice(-1);
+    var dots = document.getElementById("dots" + clicked_id);
+    var more = document.getElementById("more" + clicked_id);
+    var btn = document.getElementById(clicked_button_id);
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
@@ -10,7 +13,7 @@ function readMore() {
     }
     else {
         dots.style.display = "none";
-        btn.innerHTML = "Скрыть";
+        btn.innerHTML = "Hide Text";
         more.style.display = "inline";
     }
 }

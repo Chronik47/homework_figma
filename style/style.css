@@ -117,13 +117,13 @@ a {
     color: #000;
     font-size: 24px;
     background: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .business_item {
     background: #FFF;
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .business_item_topic {
@@ -140,18 +140,18 @@ a {
     width: 310px;
 }
 
+.display_none {
+    display: none;
+}
+
 .btn_more {
     padding-top: 25px;
     padding-bottom: 25px;
     color: #000;
+    font-family: Gilroy-Bold;
     font-size: 11px;
     line-height: 150%;
     /* 16.5px */
-    background-color: #FFF;
-}
-
-#more {
-    display: none;
 }
 
 .services {
