@@ -1,3 +1,31 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("./fonts/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("./fonts/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("./fonts/GilroyRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url("./fonts/GilroySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +34,6 @@
 
 a {
     text-decoration: none;
-}
-
-.orange_text {
-    color: #F25822;
 }
 
 .conteiner {
@@ -46,6 +70,11 @@ a {
 .header_menu_link {
     font-family: Gilroy-Medium;
     font-size: 14px;
+    color: #000;
+}
+
+.orange_text {
+    color: #F25822;
 }
 
 .padding {
@@ -114,6 +143,7 @@ a {
 .features {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
     color: #000;
     font-size: 24px;
     background: #FFFFFF;
@@ -122,12 +152,17 @@ a {
 }
 
 .business_item {
-    background: #FFF;
-    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    padding: 40px 31px 25px 29px;
 }
 
 .business_item_topic {
     margin-top: 25px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .business_item_text {
@@ -145,13 +180,17 @@ a {
 }
 
 .btn_more {
-    padding-top: 25px;
-    padding-bottom: 25px;
     color: #000;
-    font-family: Gilroy-Bold;
     font-size: 11px;
     line-height: 150%;
     /* 16.5px */
+    margin-top: 25px;
+    background-color: #FFF;
+}
+
+.box_shadow {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 }
 
 .services {
@@ -190,6 +229,9 @@ a {
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
+}
+
+.box_shadow1 {
     background: #FFF;
     box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
 }
